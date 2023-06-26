@@ -5,7 +5,7 @@ public class Teclado extends DispositivoEntrada{
     private final int idTeclado;
     private static int contadorTeclados;
 
-    public Teclado(){
+    private Teclado(){
         this.idTeclado = ++Teclado.contadorTeclados;
     }
 
