@@ -7,7 +7,7 @@ public class Orden {
     private int contadorComputadoras;
     private static final int MAX_COMPUTADORAS = 10;
 
-    private Orden(){
+    public Orden(){
         this.idOrden = ++Orden.contadorOrdenes;
         this.computadoras = new Computadora[MAX_COMPUTADORAS];
     }
